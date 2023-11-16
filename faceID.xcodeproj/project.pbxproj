@@ -11,6 +11,11 @@
 		7D4CEAA12B06546C00EE37C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CEAA02B06546C00EE37C8 /* ContentView.swift */; };
 		7D4CEAA32B06546D00EE37C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4CEAA22B06546D00EE37C8 /* Assets.xcassets */; };
 		7D4CEAA62B06546D00EE37C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4CEAA52B06546D00EE37C8 /* Preview Assets.xcassets */; };
+		7D73187D2B065ABD006A07D0 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73187C2B065ABD006A07D0 /* Title.swift */; };
+		7D73187F2B065B80006A07D0 /* PrimaryBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73187E2B065B80006A07D0 /* PrimaryBtn.swift */; };
+		7D7318822B065D2F006A07D0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7318812B065D2F006A07D0 /* LoginView.swift */; };
+		7D7318842B065F5E006A07D0 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7318832B065F5E006A07D0 /* AuthenticationManager.swift */; };
+		7D7318862B067234006A07D0 /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7318852B067234006A07D0 /* CredentialsLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7D4CEAA02B06546C00EE37C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D4CEAA22B06546D00EE37C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D4CEAA52B06546D00EE37C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D73187C2B065ABD006A07D0 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		7D73187E2B065B80006A07D0 /* PrimaryBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryBtn.swift; sourceTree = "<group>"; };
+		7D7318812B065D2F006A07D0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7D7318832B065F5E006A07D0 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		7D7318852B067234006A07D0 /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				7D4CEA9E2B06546C00EE37C8 /* faceIDApp.swift */,
-				7D4CEAA02B06546C00EE37C8 /* ContentView.swift */,
+				7D7318832B065F5E006A07D0 /* AuthenticationManager.swift */,
+				7D7318802B065D03006A07D0 /* Scenes */,
+				7D7318792B065A63006A07D0 /* Components */,
 				7D4CEAA22B06546D00EE37C8 /* Assets.xcassets */,
 				7D4CEAA42B06546D00EE37C8 /* Preview Content */,
 			);
@@ -65,6 +77,25 @@
 				7D4CEAA52B06546D00EE37C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D7318792B065A63006A07D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7D73187C2B065ABD006A07D0 /* Title.swift */,
+				7D73187E2B065B80006A07D0 /* PrimaryBtn.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7D7318802B065D03006A07D0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7D4CEAA02B06546C00EE37C8 /* ContentView.swift */,
+				7D7318812B065D2F006A07D0 /* LoginView.swift */,
+				7D7318852B067234006A07D0 /* CredentialsLoginView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +170,11 @@
 			files = (
 				7D4CEAA12B06546C00EE37C8 /* ContentView.swift in Sources */,
 				7D4CEA9F2B06546C00EE37C8 /* faceIDApp.swift in Sources */,
+				7D7318862B067234006A07D0 /* CredentialsLoginView.swift in Sources */,
+				7D73187D2B065ABD006A07D0 /* Title.swift in Sources */,
+				7D7318842B065F5E006A07D0 /* AuthenticationManager.swift in Sources */,
+				7D7318822B065D2F006A07D0 /* LoginView.swift in Sources */,
+				7D73187F2B065B80006A07D0 /* PrimaryBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +308,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"faceID/Preview Content\"";
-				DEVELOPMENT_TEAM = V88H9YS4V9;
+				DEVELOPMENT_TEAM = MHT27ATPQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,9 +339,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"faceID/Preview Content\"";
-				DEVELOPMENT_TEAM = V88H9YS4V9;
+				DEVELOPMENT_TEAM = MHT27ATPQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
