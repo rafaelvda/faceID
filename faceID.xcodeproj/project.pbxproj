@@ -308,7 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"faceID/Preview Content\"";
-				DEVELOPMENT_TEAM = MHT27ATPQ7;
+				DEVELOPMENT_TEAM = V88H9YS4V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
@@ -339,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"faceID/Preview Content\"";
-				DEVELOPMENT_TEAM = MHT27ATPQ7;
+				DEVELOPMENT_TEAM = V88H9YS4V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
